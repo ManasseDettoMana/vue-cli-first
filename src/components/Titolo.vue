@@ -1,13 +1,13 @@
 <template>
     <div>
-        <h1>La mia prima app con Vue CLI</h1>
+        <h1 id="first_app_string">La mia prima app con Vue CLI</h1>
     </div>
 </template>
 
 <script>
 
 export default {
-    name: 'Title',
+    name: '',
     components:{
         
     }   
@@ -15,5 +15,7 @@ export default {
 </script>
 
 <style>
-
+    #first_app_string{
+        color: white;
+    }
 </style>

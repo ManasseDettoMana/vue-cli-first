@@ -1,20 +1,20 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="ahahasidhasdva"/>
-    <Title />
+    <HelloWorld msg="Ciao Boolean"/>
+    <Jumbo />
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import Title from './components/Title.vue'
+import Jumbo from './components/Hero.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    Title
+    Jumbo
   }
 }
 </script>
