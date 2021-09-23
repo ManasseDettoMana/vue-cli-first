@@ -1,15 +1,15 @@
 <template>
     <div>
-        <Title msg="La mia prima app con Vue CLI"/>
+        <h1>La mia prima app con Vue CLI</h1>
     </div>
 </template>
 
 <script>
-import Title from './components/title.vue'
+
 export default {
-    name: 'title',
+    name: 'Title',
     components:{
-        Title
+        
     }   
 }
 </script>
